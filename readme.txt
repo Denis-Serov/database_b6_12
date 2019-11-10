@@ -5,5 +5,5 @@
 3. чтобы найти список альбомов, во втором терминале запускаем утилиту http вместе с названием локального сервера: http -f GET localhost:8080/albums/#название альбома в кавычках например:"The Rolling Stones"
 4. чтобы записать новый альбом, во втором терминале запускаем http -f POST localhost:8080/albums artist="Test" genre="Test" year="2019" album="Test"
 Второй метод: 
-5. вводим адрес в браузере для просмотра альбомов: http://localhost:8080/albums/The Rolling Stones (без кавычек) 
+5. вводим адрес в браузере для просмотра альбомов: http://localhost:8080/albums/The Rolling Stones  #без кавычек!!!!!!!
 6. Записываем новый альбом методом POST с помощью формы в form.html 
