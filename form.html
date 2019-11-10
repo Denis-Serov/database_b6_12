@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>записать альбом</title>
+</head>
+<body>
+	<h1> Записать нового исполнителя и его песню в базу?</h1>	
+	<form action="http://localhost:8080/albums" method="post">
+		<div>		
+			<label for="artist">Какое имя певца?</label>
+			<input name="artist" value="Test2">
+			</br>
+		</div>
+		<div>
+			<label for="genre">Какой жанр?</label>
+			<input name="genre" value="Test2">
+			</br>
+		</div>
+		<div>
+			<label for="year">Какой год?</label>
+			<input name="year" value="2019">
+			</br>
+		</div>
+		<div>			
+			<label for="album">Какой Альбом?</label>
+			<input name="album" value="Test2">
+			</br>
+		</div>
+		<div>
+			<input type="submit" value="отправить методом POST">
+		</div>
+	</form>	
+</body>
+</html>
